@@ -179,7 +179,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private String estadoCivil() {
-        return spnEstadoCivil.getSelectedItem().toString();
+        return spnEstadoCivil.getSelectedItem().toString().toLowerCase();
     }
 
     private String esMayorEdad() {
