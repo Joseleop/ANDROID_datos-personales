@@ -166,6 +166,9 @@ public class MainActivity extends AppCompatActivity {
         } else if (idSeleccionado == R.id.rdBtnMujer) {
             genero = getString(R.string.checkMujer);
         }
+        else{
+            genero = getString(R.string.checkOtro);
+        }
         return genero;
     }
 
