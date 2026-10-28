@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bgimg"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/txtIdiomas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="@string/txtIdiomas"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <Spinner
+                android:id="@+id/spnIdiomas"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/idiomas" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/hintNombre"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:ems="10"
+            android:hint="@string/txtNombre"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="textPersonName|textCapWords"
+            android:textColorHint="@color/dark_grey" />
+
+        <EditText
+            android:id="@+id/hintApellidos"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:ems="10"
+            android:hint="@string/txtApellidos"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="textPersonName|textCapWords"
+            android:textColorHint="@color/dark_grey" />
+
+        <EditText
+            android:id="@+id/hintEdad"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:ems="10"
+            android:hint="@string/txtEdad"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="number"
+            android:maxLength="3"
+            android:textColorHint="@color/dark_grey" />
+
+        <Spinner
+            android:id="@+id/spnEstadoCivil"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="12dp"
+            android:entries="@array/estadoCivil" />
+
+        <Switch
+            android:id="@+id/swHijos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/txtHijos"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tvMensaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:textColor="@color/red_error"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnMostrarDatos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:text="@string/btnDatos" />
+
+            <Button
+                android:id="@+id/btnLimpiar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnLimpiar" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/rgGenero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rdBtnHombre"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/checkHombre"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/rdBtnMujer"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="@string/checkMujer"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+    </LinearLayout>
+</ScrollView>

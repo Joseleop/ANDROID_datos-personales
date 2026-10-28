@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Données personnelles</string>
+    <string name="txtNombre">Entrez votre nom</string>
+    <string name="txtApellidos">Entrez votre nom de famille</string>
+    <string name="txtEdad">Entrez votre âge</string>
+    <string name="txtMayorEdad">Vous êtes majeur</string>
+    <string name="txtMenorEdad">Vous êtes mineur</string>
+    <string name="checkHombre">Homme</string>
+    <string name="checkMujer">Femme</string>
+    <string name="btnDatos">Afficher les données</string>
+    <string name="btnLimpiar">Effacer</string>
+    <string name="txtIdiomas">Langue</string>
+    <string name="txtHijos">Avez-vous des enfants ?</string>
+    <string name="txtSiHijos">Vous avez des enfants</string>
+    <string name="txtNoHijos">Vous n\'avez pas d\'enfants</string>
+    <string name="txtPrefijo">Données manquantes : </string>
+    <string name="faltaNombre">nom, </string>
+    <string name="faltaApellido">nom de famille, </string>
+    <string name="faltaEdad">âge.</string>
+    <string name="datosPersona">%1$s, %2$s, %3$s, %4$s, %5$s et %6$s.</string>
+
+    <string-array name="idiomas">
+        <item>Español</item>
+        <item>English</item>
+        <item>Français</item>
+    </string-array>
+
+    <string-array name="estadoCivil">
+        <item>Célibataire</item>
+        <item>Marié(e)</item>
+        <item>Séparé(e)</item>
+        <item>Veuf/Veuve</item>
+        <item>Autre</item>
+    </string-array>
+</resources>

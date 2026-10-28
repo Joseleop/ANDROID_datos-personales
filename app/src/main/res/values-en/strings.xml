@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Personal Data</string>
+    <string name="txtNombre">Enter your name</string>
+    <string name="txtApellidos">Enter your last name</string>
+    <string name="txtEdad">Enter your age</string>
+    <string name="txtMayorEdad">You are of legal age</string>
+    <string name="txtMenorEdad">You are a minor</string>
+    <string name="checkHombre">Man</string>
+    <string name="checkMujer">Woman</string>
+    <string name="btnDatos">Show Data</string>
+    <string name="btnLimpiar">Clear</string>
+    <string name="txtIdiomas">Language</string>
+    <string name="txtHijos">Do you have children?</string>
+    <string name="txtSiHijos">You have children</string>
+    <string name="txtNoHijos">You have no children</string>
+    <string name="txtPrefijo">Missing data: </string>
+    <string name="faltaNombre">name, </string>
+    <string name="faltaApellido">last name, </string>
+    <string name="faltaEdad">age.</string>
+    <string name="datosPersona">%1$s, %2$s, %3$s, %4$s, %5$s and %6$s.</string>
+
+    <string-array name="idiomas">
+        <item>Español</item>
+        <item>English</item>
+        <item>Français</item>
+    </string-array>
+
+    <string-array name="estadoCivil">
+        <item>Single</item>
+        <item>Married</item>
+        <item>Separated</item>
+        <item>Widowed</item>
+        <item>Other</item>
+    </string-array>
+</resources>
