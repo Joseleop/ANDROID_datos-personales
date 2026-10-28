@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Datos Personales</string>
+    <string name="app_name">Datos personales</string>
     <string name="txtNombre">Escriba su nombre</string>
     <string name="txtApellidos">Escriba sus apellidos</string>
     <string name="txtEdad">Introduzca su edad</string>
@@ -18,7 +18,7 @@
     <string name="faltaNombre">nombre, </string>
     <string name="faltaApellido">apellidos, </string>
     <string name="faltaEdad">edad.</string>
-    <string name="datosPersona">%1$s, %2$s, %3$s, %4$s %5$s y %6$s.</string>
+    <string name="datosPersona">%1$s, %2$s, %3$s, %4$s, %5$s y %6$s.</string>
 
     <string-array name="idiomas">
         <item>Español</item>
